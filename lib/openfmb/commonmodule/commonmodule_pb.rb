@@ -545,6 +545,7 @@ Google::Protobuf::DescriptorPool.generated_pool.build do
       optional :phsA, :message, 3, "commonmodule.CMV"
       optional :phsB, :message, 4, "commonmodule.CMV"
       optional :phsC, :message, 5, "commonmodule.CMV"
+      optional :res, :message, 6, "commonmodule.CMV"
     end
     add_message "commonmodule.ReadingMMXU" do
       optional :logicalNode, :message, 1, "commonmodule.LogicalNode"
